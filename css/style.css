@@ -1,4 +1,4 @@
-*{
+* {
 
     margin: 0;
     padding: 0;
@@ -9,32 +9,32 @@
     text-decoration: none;
 }
 
-body{
+body {
 
-    background-color: #ffffff;
+    background-color: #ECF3F1;
 }
 
-section{
+section {
 
     height: 569px;
-    
+position: relative;
 }
 
-#menu .elipse{
-
-position: absolute;
-right: 0;
-bottom: 0;
+#hero .elipse {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
-#menu .mulher{
+#hero .mulher {
     position: absolute;
     bottom: 0;
     right: 0px;
     z-index: 1;
+    height: 600px;
 }
 
-#menu .widget{
+#hero .widget {
 
     height: 178px;
     width: 144px;
@@ -47,47 +47,47 @@ bottom: 0;
 
 }
 
-.menu{
-
+.menu {
+    padding-inline: 50px;
     display: flex;
     justify-content: space-between;
 }
 
-.itens-menu{
+.itens-menu {
 
     display: flex;
     align-items: center;
-    
+
 }
 
-.item-menu{
+.item-menu {
 
     color: #506175;
     font-weight: 400;
     font-size: 14px;
 }
 
-.item-menu.logo{
+.item-menu.logo {
 
     font-weight: 700;
     font-size: 24px;
     color: #506175;
 }
 
-.item-menu.logo .clinic{
+.item-menu.logo .clinic {
 
     color: #76BFAC;
     font-weight: 600;
 }
 
-.btns-login-register{
+.btns-login-register {
 
     gap: 10px;
     display: flex;
     align-items: center;
 }
 
-.btns-login-register .login{
+.btns-login-register .login {
 
     background: none;
     font-size: 14px;
@@ -96,7 +96,7 @@ bottom: 0;
 
 }
 
-.btns-login-register .register{
+.btns-login-register .register {
 
     background-color: #68A797;
     color: white;
@@ -106,14 +106,14 @@ bottom: 0;
     font-size: 14px;
 }
 
-.content{
+.content {
 
     margin: 0 auto;
     width: 1120px;
     height: 100%;
 }
 
-.menu{
+.menu {
 
     display: flex;
     height: 44px;
@@ -121,38 +121,38 @@ bottom: 0;
 
 }
 
-.menu ul{
+.menu ul {
 
     display: flex;
     gap: 40px;
 }
 
-#menu .content .info{
+#hero .content .info {
 
     margin-top: 100px;
     width: 600px;
 
 }
 
-#menu .content .info .titulo{
+#hero .content .info .titulo {
 
     color: #76BFAC;
     font-size: 49px;
 }
 
-#menu .content .info .divisao-titulo{
+#hero .content .info .divisao-titulo {
 
     color: #506175;
 }
 
-#menu .content .info .text{
+#hero .content .info .text {
 
     font-size: 13px;
     color: #696969;
     margin-top: 24px;
 }
 
-#menu .content .info .contate{
+#hero .content .info .contate {
 
     width: 174px;
     height: 49px;
@@ -162,7 +162,112 @@ bottom: 0;
     margin-top: 24px;
 }
 
-button{
+button {
 
     cursor: pointer;
+}
+
+.solucao {
+    width: 287px;
+    height: 226px;
+
+}
+
+.solucao {
+    width: 100%;
+    height: 270px;
+    /* margin-top:144px ; */
+    background-color: #ECF3F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 40px; */
+
+
+}
+
+.solucao h3 {
+    margin-top: 146px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #68A797;
+
+}
+
+.solucao h1 {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #506175;
+
+}
+
+.box1 {
+
+    width: 287px;
+    height: 226px;
+    left: 1052px;
+    top: 1023px;
+    background-color: #fff;
+
+
+}
+
+
+.box1 img {
+    margin-top: 53px;
+    margin-left: 43px;
+
+
+
+}
+
+.servicos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    background-color: #ECF3F1;
+    gap: 30px;
+
+}
+
+.mulher img {
+    position: absolute;
+    width: 885px;
+    height: 590px;
+    margin-left: 555px;
+    margin-top: 98px;
+
+}
+
+.box1 h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #506175;
+    margin-left: 40px;
+    gap: 12px;
+
+
+}
+
+.box1 p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #696969;
+    margin-left: 40px;
+
+
 }
