@@ -1,0 +1,168 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+
+    background-color: #ffffff;
+}
+
+section{
+
+    height: 569px;
+    
+}
+
+#menu .elipse{
+
+position: absolute;
+right: 0;
+bottom: 0;
+}
+
+#menu .mulher{
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    z-index: 1;
+}
+
+#menu .widget{
+
+    height: 178px;
+    width: 144px;
+    left: 734px;
+    top: 396px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.164) 0px 0px 25px 1px;
+
+}
+
+.menu{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.itens-menu{
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.item-menu{
+
+    color: #506175;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.item-menu.logo{
+
+    font-weight: 700;
+    font-size: 24px;
+    color: #506175;
+}
+
+.item-menu.logo .clinic{
+
+    color: #76BFAC;
+    font-weight: 600;
+}
+
+.btns-login-register{
+
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.btns-login-register .login{
+
+    background: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #506175;
+
+}
+
+.btns-login-register .register{
+
+    background-color: #68A797;
+    color: white;
+    width: 131px;
+    height: 44px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.content{
+
+    margin: 0 auto;
+    width: 1120px;
+    height: 100%;
+}
+
+.menu{
+
+    display: flex;
+    height: 44px;
+    margin-top: 56px;
+
+}
+
+.menu ul{
+
+    display: flex;
+    gap: 40px;
+}
+
+#menu .content .info{
+
+    margin-top: 100px;
+    width: 600px;
+
+}
+
+#menu .content .info .titulo{
+
+    color: #76BFAC;
+    font-size: 49px;
+}
+
+#menu .content .info .divisao-titulo{
+
+    color: #506175;
+}
+
+#menu .content .info .text{
+
+    font-size: 13px;
+    color: #696969;
+    margin-top: 24px;
+}
+
+#menu .content .info .contate{
+
+    width: 174px;
+    height: 49px;
+    color: white;
+    background-color: #68A797;
+    border-radius: 10px;
+    margin-top: 24px;
+}
+
+button{
+
+    cursor: pointer;
+}
