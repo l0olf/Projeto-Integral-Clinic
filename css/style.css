@@ -9,6 +9,13 @@
     text-decoration: none;
 }
 
+@media screen and (min-width: 920px) {
+    
+
+    
+
+    
+
 body{
 
     background-color: #ffffff;
@@ -29,17 +36,17 @@ bottom: 0;
 
 #menu .mulher{
     position: absolute;
-    bottom: 0;
-    right: 0px;
+    bottom: 0px;
+    right: 100px;
     z-index: 1;
 }
 
 #menu .widget{
 
-    height: 178px;
-    width: 144px;
-    left: 734px;
-    top: 396px;
+    height: 170px;
+    width: 130px;
+    right: 35%;
+    bottom: 50px;
     border-radius: 10px;
     background-color: white;
     position: absolute;
@@ -165,4 +172,6 @@ bottom: 0;
 button{
 
     cursor: pointer;
+}
+
 }
