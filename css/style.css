@@ -1,0 +1,106 @@
+.logo{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+}
+
+h1{
+    color: #506175;
+}
+
+h3{
+width: 493px;
+height: 80px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+color: #506175;
+}
+.esquerda {
+    margin-left: 100px;
+}
+
+.text{
+font-family: 'Manrope';
+color: #696969;
+width: 531px;
+height: 80px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+
+}
+
+.especialistas {
+font-family:'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+color: #506175;
+
+}
+.btn{
+background: #76BFAC;
+border-radius: 10px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 36px;
+gap: 10px;
+margin-top: 26px;
+color: #fff;
+
+}
+.circulo{
+               
+    width: 803px;
+    height: 803px;
+    left: 764px;
+    top: 216px;
+background: #76BFAC
+}
+
+.container{
+display: flex;
+margin: 0 auto;
+width: 100%;
+padding: 50px;
+        }
+
+.esquerda h1 span{
+color: #76BFAC;}
+
+.circulo-verde{
+background-color: #76BFAC;
+width: 803px;
+height: 803px;
+border-radius: 50%;
+position: absolute;
+top: 320px;
+z-index:-6;}
+
+.medica{
+    margin-left:50px;
+    margin-top: 81px;
+}
+
+.text-img{
+    display: flex;
+    gap: 12px;
+   
+}
+
+.text2-img{
+    display: flex;
+    gap: 12px;
+   
+   
+}
+
+.correto{
+width: 24px;
+height: 24px;
+margin-top: 8px;
+}
