@@ -11,6 +11,14 @@
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-img{
+
+  height: 50px;
+  order: 1;
 }
 
 .logo span{
@@ -34,13 +42,17 @@ body {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
-  background-image: linear-gradient(to left, #76BFAC, #68A797);
-  box-shadow: 0px 0px 10px 4px rgba(80, 97, 117, 0.5);
-  
+  background-color: white;
+  box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.274);
+  border-radius: 30px;
+  margin-top: 100px;
+  z-index: 2;
+  position: relative;
 }
 
 h1 {
   text-align: center;
+  color: #506175;
 }
 
 .contact-form {
@@ -55,6 +67,7 @@ h1 {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
+  color: #506175;
 }
 
 .form-group input,
@@ -64,8 +77,8 @@ h1 {
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
-  box-shadow: 0px 0px 10px 3px rgba(80, 97, 117, 0.5);
   font-family: 'Manrope', sans-serif;
+  border-radius: 10px;
 }
 
 .form-group textarea {
@@ -74,18 +87,58 @@ h1 {
 
 .form-group button {
   padding: 10px 20px;
-  background-color: #506175;
-  box-shadow: 0px 0px 10px 3px rgba(80, 97, 117, 0.5);
-  color: #E2FFF8;
+  background-color: #76BFAC;
+  color: #ffffff;
+  letter-spacing: 2px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-family: 'Manrope', sans-serif;
   opacity: 0.80;
   transition: ease-in 0.2s;
+  width: 100%;
 }
 
 .form-group button:hover {
   opacity: 1;
-  scale: 1.2;
+  scale: 1.02;
+}
+
+.elipse{
+
+  height: 50%;
+  position: absolute;
+  right: 0;bottom: 0;
+  z-index: 1;
+}
+
+@media screen and (max-width: 700px) {
+  
+  .container1{
+
+    margin-top: 20px;
+    box-shadow: none;
+  }
+
+  .elipse{
+
+    display: none;
+  }
+
+  .logo{
+
+    flex-direction: column;
+    gap: 0px;
+  }
+  
+  .logo-img{
+
+    order: 0;
+    height: 30px;
+  }
+
+  .logo h1{
+
+    font-size: 20px;
+  }
 }
