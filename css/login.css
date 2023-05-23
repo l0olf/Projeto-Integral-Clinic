@@ -4,11 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body{
     background-image: -moz-linear-gradient(to top, #ECF3F1, #fff);
-    background-color: #ECF3F1;
+    background-color: #68A797;
     animation: fadeIn 1s ease;
 }
 
@@ -37,7 +38,7 @@ body{
 }
 
 .dir{
-    background-image: linear-gradient(to bottom, #76BFAC, #68A797);
+    background-color: #E2FFF8;
     width: 60%;
     height: 100%;
     display: flex;
@@ -235,4 +236,12 @@ a{
 
 .conteudo{
     margin-top: 50px;
+}
+
+.animacao{
+
+    height: 500px;
+    width: 500px;
+    border: none;
+    border-radius: 50%;
 }
