@@ -271,3 +271,107 @@ button {
 
 
 }
+.agend {
+width: 700px;
+height: 372px;
+margin-left: 77px;
+border-radius: 200px;
+margin-top: 100px;
+
+
+}
+
+.text4{
+
+color: #68A797;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+margin-left: 61px;
+margin-top: 10px;
+}
+
+.text5{
+width: 441px;
+height: 80px;
+margin-left: 61px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+color: #506175;
+margin-top: 70px;
+}
+ .Saude {
+ margin-top: 60px;
+ width: 472px;
+height: 60px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+ color: #696969;
+ margin-left: 61px
+ 
+ }
+.container{   
+display: flex;
+margin: 0 auto;
+width: 100%;
+padding: 50px;
+
+  }
+.especialistas {
+font-family:'Manrope';
+font-weight: 600;
+font-size: 14px;
+color: #506175;
+margin-left: 2px;
+
+    
+    }
+.btn{
+background: #76BFAC;
+border-radius: 10px;
+padding: 16px 36px;
+gap: 10px;
+margin-top: 26px;
+color: #fff;
+width: 236px;
+height: 52px;
+margin-left: 61px;
+    
+    }
+    .correto{
+width: 24px;
+height: 24px;
+margin-left: 1px;
+
+    }
+    
+    
+    
+    .text-img{
+    display: flex;
+    gap: 12px;
+    margin-top: 21px;
+    margin-left: 61px;
+    
+       
+    }
+    
+    .text2-img{
+    /* display: flex; */
+    /* gap: 12px; */
+    margin-top: 25px;
+    
+
+       
+       
+    }
+    
+    
+   
