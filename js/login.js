@@ -5,7 +5,7 @@ var erro = document.querySelector(".erro");
 var btn_signup = document.querySelector(".btn-2");
 
 btn_login.addEventListener("click", () => {
-    if (email.value == "teste" && senha.value == "teste123") {
+    if (email.value == "doctor.fran@gmail.com" && senha.value == "12345678") {
         window.open("index.html");
     } else{
         erro.classList.add("erro_auth");

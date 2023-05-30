@@ -1,24 +1,18 @@
-/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Manrope', sans-serif; */
 
 *{
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
 
 body{
     background-image: -moz-linear-gradient(to top, #ECF3F1, #fff);
-    background-color: #ECF3F1;
-    animation: fadeIn 1s ease;
-}
-
-@keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+    background-color: #68A797;
 }
 
 .master{
@@ -37,7 +31,7 @@ body{
 }
 
 .dir{
-    background-image: linear-gradient(to bottom, #76BFAC, #68A797);
+    background-color: #E2FFF8;
     width: 60%;
     height: 100%;
     display: flex;
@@ -62,23 +56,30 @@ body{
     display: flex;
     margin-top: 15px;
     margin-left: 30px;
+    gap: 20px;
+    align-items: center;
 }
 
-.div-logo p{
-    font-family: 'Inter', sans-serif;
+.logo-img{
+    height: 40px;
+    margin-top: 15px;
+}
+
+.div-logo h1 a{
+
     color: #506175;
-   
+    font-size: 24px
 }
 
 .div-logo span{
     color: #76BFAC;
+    font-family: 'Manrope', sans-serif;
 }
 
 
 .texto{
-    font-family: 'Inter', sans-serif;
     color: #506175;
-    font-size: 14px;
+    font-size: 34px;
     margin-left: 30px;
     margin-top: 40px;
 }
@@ -90,25 +91,26 @@ body{
 
 .subtitulo{
     color: #506175;
-    font-family: 'Inter', sans-serif;
     margin-left: 30px;
     margin-top: 20px;
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 label{
-    font-family: 'Inter', sans-serif;
     margin-left: 30px;
     color: #506175;
     
 }
 
 input{
-    width: 220px;
-    height: 30px;
+    margin-right: 20px;
+    width: 85%;
+    height: 40px;
     margin-left: 30px;
     border-radius: 8px;
-    border: #68A797 1px solid;
+    border: #c7e4dd 1px solid;
+    padding-left: 20px;
 }
 
 .name{
@@ -124,6 +126,7 @@ input{
 .checkbox input{
     width: 15px;
     height: 15px;
+    padding: 0;
 }
 
 
@@ -134,7 +137,6 @@ input{
 }
 
 .link{
-    font-family: 'Inter', sans-serif;
     font-size: 10px;
     margin-left: 50px;
 }
@@ -152,58 +154,65 @@ button{
 }
 
 .btn_1{
-    background-image: linear-gradient(to bottom, #76BFAC, #68A797);
+    background-color: #76BFAC;
     color: white;
     border-radius: 4px;
     border: none;
     transition: all 0.3s ease;
     transform: scale(1);
+    width: 195px;
+    height: 40px;
 }
 
 .btn_1:hover{
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 #check{
 
     appearance: none;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background: none;
-    border: solid 1px #355B3E;
-    border-radius: 2px;
+    border: solid 1px #68A797;
+    border-radius: 4px;
+
 }
 
 #check:checked{
 
     appearance: none;
-    width: 10px;
-    height: 10px;
-    background: none;
-    border: solid 1px #355B3E;
-    border-radius: 2px;
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 4px;
     background-color: #68A797;
-    transition: 0.1s ease
+    background-image: url(/img/117_vector.svg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 .btn-2{
-    background-image: linear-gradient(to bottom, white, white, #ECF3F1);
+    background-color: white;
     color: #68A797;
     border: #68A797 1px solid;
     border-radius: 4px;
     margin-left: 10px;
     transition: all 0.3s ease;
     transform: scale(1);
+    width: 190px;
+    height: 40px;
 }
 
 .btn-2:hover{
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 
 .textinho{
     font-size: 10px;
-    font-family: 'Inter', sans-serif;
     display: flex;
     gap: 10px;
     color: #506175;
@@ -223,8 +232,7 @@ a{
 .erro{
     display: none;
     color: red;
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 11px;
     margin-left: 30px;
 }
 
@@ -235,4 +243,12 @@ a{
 
 .conteudo{
     margin-top: 50px;
+}
+
+.animacao{
+
+    height: 500px;
+    width: 500px;
+    border: none;
+    border-radius: 50%;
 }
