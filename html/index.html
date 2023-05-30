@@ -16,6 +16,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+    <!-- LINK BOOTSRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
 </head>
 
@@ -23,19 +25,24 @@
     <header>
         <nav class="menu">
             <ul class="itens-menu">
+                <div class="menu-burguer"><i class="bi bi-three-dots"></i></div>
                 <li><a href="/html/index.html" class="item-menu logo">Integral <span class="clinic">Clinic</span></a>
                 </li>
-                <li><a href="#menu" class="item-menu">Menu</a></li>
-                <li><a href="#doutores" class="item-menu">Doutores</a></li>
-                <li><a href="#servicos" class="item-menu">Serviços</a></li>
-                <li><a href="/html/contato.html" class="item-menu">contatos</a></li>
+                <div class="links">
+                    <li><a href="#menu" class="item-menu">Menu</a></li>
+                    <li><a href="#doutores" class="item-menu">Doutores</a></li>
+                    <li><a href="#servicos" class="item-menu">Serviços</a></li>
+                    <li><a href="/html/contato.html" class="item-menu">contatos</a></li>
+
+                </div>
+                <div class="icon-logo"><img src="/img/Group 6.svg" height="20px" alt=""></div>
             </ul>
 
-            <div class="icon-logo"><img src="/img/Group 6.svg" height="20px" alt=""></div>
+
 
             <div class="btns-login-register">
                 <div>
-                    <button class="login">Login</button>
+                    <button class="login"> <a href="login.html">Login</a> </button>
                 </div>
                 <div>
                     <button class="register">Registrar-se</button>
@@ -60,146 +67,187 @@
                     similares às fornecidas pelas companhias de seguro gratuitamente e os preços são baseados em doações
                     e não em redes restritivas de planos de saúde.
                 </p>
-                <button class="contate">Contate-nos</button>
+                <button class="contate"> <a href="/html/contato.html"> Contate-nos</a></button>
             </div>
+            <div class="imagem-mobile"><img src="/img/MobileGrafico.png" alt=""></div>
         </div>
     </section>
 
     <div class="solucao">
         <h3>Soluções rápidas</h3>
-        <h1>step by step to get your solutions</h1>
+        <h1>Passo à Passo Trabalhando Em soluções</h1>
 
     </div>
 
-    <section class="servicos">
+    <section id="servicos">
         <div class="box1">
+            <div class="containerTexto">
             <img class="lupa" src="../img/156_group.png" alt="lupa">
             <h1>Choose doctor Specialist</h1>
             <p>Check the disease so you can
                 easily choose the right specialist</p>
+            </div>
         </div>
         <div class="box1">
+            <div class="containerTexto">
             <img class="avaliacao" src="../img/165_group.png" alt="">
             <h1>Choose doctor Specialist</h1>
             <p>Check the disease so you can
                 easily choose the right specialist</p>
+            </div>
         </div>
         <div class="box1">
+            <div class="containerTexto">
             <img class="calendario" src="../img/173_instance.png" alt="">
             <h1>Choose doctor Specialist</h1>
             <p>Check the disease so you can
                 easily choose the right specialist</p>
+            </div>
         </div>
         <div class="box1">
+            <div class="containerTexto">
             <img class="contatos" src="../img/191_instance.png" alt="">
             <h1>Choose doctor Specialist</h1>
             <p>Check the disease so you can
                 easily choose the right specialist</p>
+            </div>
         </div>
     </section>
 
     <section id="agendamento">
 
         <div class="container">
+
             <div class="esquerda">
-                <img  class="agend" src="/Projeto-Integral-Clinic/img/105_rectangle (2).png" alt="">
+                <img class="agend" src="/img/101_group.png" alt="">
 
             </div>
-            
+
             <div class="direita">
-                <h1 class="text4">faça o agendamento</h1>
+
 
                 <h2 class="text5">Faça um agendamento com antecedência com o médico disponível</h2>
-                
-                
-                <p class="Saude">Cuidar da saúde é um processo muito doloroso, principalmente se você não está cuidando da sua saúde e fazer check-ups regulares. HealthCarely faz isso mais fácil para todos agendar uma consulta médica.</p>
+
+
+                <p class="Saude">Cuidar da saúde é um processo muito doloroso, principalmente se você não está cuidando
+                    da sua saúde e fazer check-ups regulares. HealthCarely faz isso mais fácil para todos agendar uma
+                    consulta médica.</p>
 
                 <div class="text2-img">
                     <div class="text-img">
-               
-                        <img class="corre" src="/Projeto-Integral-Clinic/img/120_group.png" alt="">
+
+                        <img class="corre" src="/img/120_group.png" alt="">
                         <h2 class="especialistas">Fazer um agendamento online é fácil</h2>
                     </div>
-        
+
                     <div class="text-img">
-                   
-                        <img class="correto" src="/Projeto-Integral-Clinic/img/120_group.png" alt="">
+
+                        <img class="correto" src="/img/120_group.png" alt="">
                         <h2 class="especialistas">Fácil de se conectar com o médico</h2>
                     </div>
-                   
-           
-                
-                
+
+
+
+
                 </div>
-                
+
                 <div class="button">
+
                     <button type="button" class="btn">Faça seu Agendamento</button>
                 </div>
-        
+
             </div>
+        </div>
 
+        <section id="avaliacoes">
 
-    <section id="avaliacoes">
-        <header>
-            <nav class="navFinal" >
+            <div class="navFinal">
                 <div class="nav_text">
-                <h1>Our patients feedback about us</h1>
-                <h3>their impression after using this application</h3>
+                    <h1>Our patients feedback about us</h1>
+                    <h3>their impression after using this application</h3>
+                </div>
             </div>
-            </nav>
-        </header>
-        <div class="containerFim">
-            <img src="/img/imagem.png" width="300px" height="300px" alt="">
-            <div class="texto2">
-            <p>"Integral Clinic is an website and mobile app for you to feel better or get medical help. we offer you a 24/7 doctor service with no appointment needed"</p>
-            <h2>Naufal Hidayat</h2>
-            <h3>Student at Telkom University</h3>
-        </div>
-        <div class="seta">
-        <img src="/img/44_instance.png" alt="">
+
+            <div class="containerFim">
+                <img class="homem" src="/img/imagem.png" width="300px" height="300px" alt="">
+                <div class="texto2">
+                    <p>"Integral Clinic is an website and mobile app for you to feel better or get medical help. we
+                        offer you a 24/7 doctor service with no appointment needed"</p>
+                    <div class="textoBaixo">
+                        <div class="estudante">
+                            <h2>Naufal Hidayat</h2>
+                            <h3>Student at Telkom University</h3>
+                        </div>
+                        <div class="seta">
+                            <img src="/img/44_instance.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
             </div>
-        </div>
-    
-        <div class="container_2">
-            <div class="texto1">
-            <h1>Integral <span>Clinic</span></h1>
-            <p>This free App provides a solution to your health needs by offering
-                you a one-stop access to complete information about various
-                medical checkups. This App carries simple tips and advice to
-                help you maintain a healthy lifestyle.</p>
-            </div>
+
+            <div class="container_2">
+                <div class="texto1">
+                    <h1>Integral <span>Clinic</span></h1>
+                    <p>This free App provides a solution to your health needs by offering
+                        you a one-stop access to complete information about various
+                        medical checkups. This App carries simple tips and advice to
+                        help you maintain a healthy lifestyle.</p>
+                </div>
                 <div class="itens">
-                    
+
                     <ul>
-                        <li><h3>Overview</h3></li>
-                        <li><p>Checking health</p></li>
-                        <li><p>Find doctor</p></li>
+                        <li>
+                            <h3>Overview</h3>
+                        </li>
+                        <li>
+                            <p>Checking health</p>
+                        </li>
+                        <li>
+                            <p>Find doctor</p>
+                        </li>
                         <li>Make a schedule</li>
                     </ul>
                     <ul>
-                        <li><h3>Company</h3></li>
-                        <li><p>Home</p></li>
-                        <li><p>About</p></li>
-                        <li><p>Services</p></li>
+                        <li>
+                            <h3>Company</h3>
+                        </li>
+                        <li>
+                            <p>Home</p>
+                        </li>
+                        <li>
+                            <p>About</p>
+                        </li>
+                        <li>
+                            <p>Services</p>
+                        </li>
                     </ul>
                     <ul>
-                        <li><h3>Explore</h3></li>
-                        <li><p>Terms & conds</p></li>
-                        <li><p>Privacy police</p></li>
-                        <li><p>Cookies</p></li>
+                        <li>
+                            <h3>Explore</h3>
+                        </li>
+                        <li>
+                            <p>Terms & conds</p>
+                        </li>
+                        <li>
+                            <p>Privacy police</p>
+                        </li>
+                        <li>
+                            <p>Cookies</p>
+                        </li>
                     </ul>
                     <div class="itens_social">
                         <h3>Social Media</h3>
-                    <ul>
-                        <li><img src="/img/29_vector.png" alt=""></li>
-                        <li><img src="/img/31_vector.png" alt=""></li>
-                        <li><img src="/img/33_vector.png" alt=""></li>
-                    </ul>
-                 </div>
+                        <ul>
+                            <li><img src="/img/29_vector.png" alt=""></li>
+                            <li><img src="/img/31_vector.png" alt=""></li>
+                            <li><img src="/img/33_vector.png" alt=""></li>
+                        </ul>
+                    </div>
                 </div>
-        </div>
+            </div>
 
-    </section>
+        </section>
 
-    <!-- LINK JS -->
-    <script src="/js/script.js"></script>
+        <!-- LINK JS -->
+        <script src="/js/script.js"></script>
