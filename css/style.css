@@ -729,3 +729,14 @@ button {
         margin-top: 20px;
     }
 }
+
+.container-restrita{
+
+    width: 100%;
+}
+
+.content-restrita{
+
+    width: 1700px;
+    margin: 0 auto;
+}
