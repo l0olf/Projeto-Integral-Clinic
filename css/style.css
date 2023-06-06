@@ -9,6 +9,17 @@
     text-decoration: none;
 }
 
+
+.accordion{
+
+    width: 100%;
+}
+
+/* .accordion .accordion-button{
+
+    background-color: #76bfac4f;
+} */
+
 body {
 
     background-color: #fff;
@@ -739,4 +750,15 @@ button {
 
     width: 1700px;
     margin: 0 auto;
+}
+
+.assunto{
+
+    font-weight: 700;
+}
+
+.assunto-conteudo{
+
+    font-size: 14px;
+    font-weight: 500;
 }
