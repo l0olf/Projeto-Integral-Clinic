@@ -574,7 +574,15 @@ button {
         flex-direction: column !important;
         gap: 10px!important;
     }
-    
+    .text-img{
+        display: flex;
+        justify-content: center;
+    }
+    .menu{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
     .mulher {
         display: none;
 
@@ -681,6 +689,7 @@ button {
     }
 
     header {
+        
         margin-bottom: -60px;
     }
 
