@@ -67,9 +67,6 @@ section {
 .container-menu{
     align-items: center;
     display: flex;
-    /* width: 100%; */
-    justify-content: center;
-
 }
 
 
@@ -82,7 +79,7 @@ section {
 
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 40px;
 
 }
 
@@ -141,6 +138,7 @@ section {
     margin: 0 auto;
     width: 1120px;
     height: 100%;
+
 }
 
 .menu {
@@ -411,7 +409,6 @@ button {
     width: 100%;
     display: flex;
     gap: 10%;
-
     margin-top: -90px;
 }
 
@@ -552,11 +549,7 @@ button {
 .itens-menu {
     align-items: center;
     display: flex;
-    width: 300px;
-    justify-content: space-between;
-    margin: 0 auto;
-    height: 20px;
-    
+    margin-left: -40px;    
 }
 
 .imagem-mobile img {
@@ -568,7 +561,7 @@ button {
     color: #fff;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
     .itemMenuMobile {
         display: flex;
         flex-direction: column !important;
@@ -676,8 +669,7 @@ button {
     }
 
     .icon-logo img {
-        height: 20px;
-        order: -3;
+        height: 40px;
     }
 
     header {
@@ -761,4 +753,15 @@ button {
 
     font-size: 14px;
     font-weight: 500;
+}
+
+@media screen and (max-width: 1370px) {
+    #hero .mulher{
+
+        height: 90%;
+    }
+    #hero .elipse{
+
+        height: 45%;
+    }
 }
