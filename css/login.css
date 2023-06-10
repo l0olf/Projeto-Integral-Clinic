@@ -54,9 +54,9 @@ body{
 
 .div-logo{
     display: flex;
+    justify-content: center;
     margin-top: 15px;
-    margin-left: 30px;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
 }
 
@@ -81,10 +81,9 @@ body{
     text-align: center;
     color: #506175;
     font-size: 18px;
-    display: flex;
-    justify-content: center;
+    
     gap: 5px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 
@@ -93,11 +92,16 @@ body{
 }
 
 .subtitulo{
+    text-align: center;
     color: #506175;
     width: 85%;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 12px;
     font-weight: 400;
+}
+.input-nome{
+    display: flex;
+    justify-content: center;
 }
 .input-email{
     display: flex;
@@ -132,6 +136,9 @@ input{
 
 
 .checkbox{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     margin-top: 20px;
     color: #506175;
 }
@@ -151,7 +158,7 @@ input{
 
 .link{
     font-size: 10px;
-    margin-left: 50px;
+    
 }
 
 
@@ -174,7 +181,7 @@ button{
     border: none;
     transition: all 0.3s ease;
     transform: scale(1);
-    width: 195px;
+    width: 45%;
     height: 40px;
 }
 
@@ -216,7 +223,7 @@ button{
     margin-left: 10px;
     transition: all 0.3s ease;
     transform: scale(1);
-    width: 190px;
+    width: 45%;
     height: 40px;
 }
 
@@ -228,10 +235,11 @@ button{
 .textinho{
     font-size: 10px;
     display: flex;
+    justify-content: center;
     gap: 10px;
     color: #506175;
-    margin-left: 30px;
-    margin-top: 30px;
+    
+    margin-top: 5%;
 }
 
 a{
@@ -256,7 +264,7 @@ a{
 
 
 .conteudo{
-    margin-top: 50px;
+    margin-top: 3%;
 }
 
 .animacao{
@@ -270,21 +278,13 @@ a{
         display: flex;
         justify-content: center;
     }
+    
 
 @media screen and (max-width: 1300px) {
     .texto{
         display: block;
     }
-    .btn_1{
-        width: 100px;
-        height: 30px;
-        font-size: 10px;
-    }
-    .btn-2{
-        width: 100px;
-        height: 30px;
-        font-size: 10px;
-    }
+    
     input{
         height: 30px;
     }
@@ -292,5 +292,47 @@ a{
         text-align: center;
     }
     
-    .texto margin-top: 0;
+}
+
+@media screen and (max-width: 700px){
+    .dir{
+        display: none;
+    }
+    .esq{
+        width: 100%;
+        border-radius: 20px;
+    }
+    .master{
+        width: 100%;
+    }
+    .container{
+        width: 85%;
+        height: 75%;
+        position: absolute;
+    }
+    label{
+        font-size: 15px;
+    }
+    .textinho{
+        margin-top: 10% ;
+    }
+    input{
+        border: #68A797 solid 1px;
+    }
+    .checkbox{
+        gap: 20px;
+    }
+    .checkbox label{
+        font-size: 15px;
+    }
+    .checkbox a{
+        font-size: 15px;
+    }
+    .checkbox input{
+        margin-top: 3px;
+        margin-right: -10px;
+    }
+    .texto{
+        font-size: 23px;
+    }
 }
