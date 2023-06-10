@@ -6,7 +6,7 @@ var btn_signup = document.querySelector(".btn-2");
 
 btn_login.addEventListener("click", () => {
     if (email.value == "doctor.fran@gmail.com" && senha.value == "12345678") {
-        window.open("index.html");
+        window.open("arearRestrita.html");
     } else{
         erro.classList.add("erro_auth");
     }

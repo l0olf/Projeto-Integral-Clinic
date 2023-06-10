@@ -1,0 +1,42 @@
+a{
+/*Typography stuff*/
+    text-decoration: none;
+}
+
+.item-menu.logo{
+
+/*Typography stuff*/
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.links{
+
+/*Miscellaneous*/
+    gap: 40px;
+}
+
+.links a{
+
+/*Typography stuff*/
+    font-size: 16px;
+}
+
+
+
+@media screen and (max-width:700px) {
+    .accordion.all{
+
+        position: relative;
+    }
+    
+    .menu-mobile{
+    
+        position: absolute;
+    }
+
+    .container{
+
+        margin-top: 100px;
+    }
+}
