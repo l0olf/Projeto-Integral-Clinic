@@ -662,6 +662,7 @@ section {
     }
 
     .menu-burguer {
+        scale: 1.5;
         display: block;
         background: none;
     }
