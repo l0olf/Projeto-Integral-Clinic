@@ -57,6 +57,22 @@ body {
   position: relative;
 }
 
+.voltar {
+  padding-left: 10px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+.voltar a{
+
+  color: #506175;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+
 .container1 {
   max-width: 600px;
   margin: 20px auto;
