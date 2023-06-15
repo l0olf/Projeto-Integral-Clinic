@@ -45,17 +45,8 @@ section {
     height: 600px;
 }
 
-#hero .widget {
-
-    height: 170px;
-    width: 130px;
-    right: 35%;
-    bottom: 50px;
-    border-radius: 10px;
-    background-color: white;
-    position: absolute;
-    box-shadow: rgba(0, 0, 0, 0.164) 0px 0px 25px 1px;
-
+#hero{
+    height: 70vh;
 }
 
 .menu {
@@ -136,7 +127,7 @@ section {
 .content {
 
     margin: 0 auto;
-    width: 1120px;
+    width: 80%;
     height: 100%;
 
 }
@@ -150,9 +141,10 @@ section {
 }
 
 .menu ul {
-
+    margin-right: 40;
     display: flex;
     gap: 40px;
+   
 }
 
 #hero .content .info {
@@ -190,10 +182,10 @@ section {
     margin-top: 24px;
 }
 
-button {
+#MobileMenu {
 
-    background: none;
-    cursor: pointer;
+    display: none;
+    
 }
 
 .solucao {
@@ -252,7 +244,7 @@ button {
 
 
 .containerTexto {
-    width: 200px;
+    width: 80%;
     margin-top: -10px;
 }
 
@@ -269,10 +261,7 @@ button {
 
 .mulher img {
     position: absolute;
-    width: 885px;
     height: 590px;
-    margin-left: 555px;
-    margin-top: 98px;
 
 }
 
@@ -549,19 +538,26 @@ button {
 .itens-menu {
     align-items: center;
     display: flex;
-    margin-left: -40px;    
+       
 }
 
 .imagem-mobile img {
     display: none;
 }
-
+.login a{
+    color:#506175;
+}
 .contate a {
     text-decoration: none;
     color: #fff;
 }
 
 @media screen and (max-width: 850px) {
+    
+    #MobileMenu{
+        background: none;
+        display: block;
+    }
     .itemMenuMobile {
         display: flex;
         flex-direction: column !important;
@@ -601,28 +597,32 @@ button {
         width: 100%;
         height: 150px;
         background-color: white;
-        box-shadow: #0000001e 0px 0px 20px 1px;
+        /* box-shadow: #0000001e 0px 0px 20px 1px; */
         margin-bottom: 30px;
-        top: -150px;
+        top: -250px;
         z-index: 4;
         display: block;
         transition: all 0.5s;
     }
 
     .menu-mobile.active {
-        top: 110px !important;
+        top: 60px !important;
         transition: all 0.5s;
     }
 
     .conteudo-menu-moblie{
 
-        width: 60px;
+        width: 190px;
         margin: 0 auto;
         height: 100px;
         text-align: center;
         padding-top: 15px;
     }
 
+    .itemMenuMobile .item-menu{
+        border-bottom: solid 1px #5061752a;
+        height: 20px;
+    }
     
  
 
@@ -686,7 +686,7 @@ button {
     }
 
     .solucao {
-        margin-top: -190px;
+        margin-top: -80px;
         width: 100%;
     }
 
@@ -728,17 +728,29 @@ button {
 
     .texto1{
         
+        text-align: center;
         margin: 0;
         padding: 0;
     }
-    .texto1 p{
-        width: 100%;
+    .fim-txt p{
+        width: 95%;
+    }
+    .fim-txt{
+        display: flex;
+        justify-content: center;
     }
     .itens{
         gap: 5%;
         width: 100%;
         margin: 0;
         margin-top: 20px;
+    }
+
+    .itens p{
+        font-size: 11px ;
+    }
+    .itens h3{
+        font-size: 15px ;
     }
 }
 
@@ -763,6 +775,8 @@ button {
     font-size: 14px;
     font-weight: 500;
 }
+
+
 
 @media screen and (max-width: 1370px) {
     #hero .mulher{
