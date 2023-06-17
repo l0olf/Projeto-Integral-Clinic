@@ -80,15 +80,14 @@ button{
 .popUp-esquerda{
 
     width: 70%;
-    height: %;
-
 }
 
 .popUp-direita{
 
     height: 100%;
     width: 30%;
-    background-color: aqua;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 1px #0000000c;
 }
 
 .tudo.aberto{
@@ -170,28 +169,103 @@ button{
     justify-content: space-between;
 }
 
-/* .info-doutor{
-
-    text-align: center;
-    height: 30%;
+.descricao-card{
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    padding-top: 10px;
+    height: 25%;
+    width: 100%;
 }
 
-.img-doutor{
+.descricao-card .titulo-card{
+
+    font-weight: 600;
+}
+
+.descricao-card p{
+
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.selecao-card{
+
+    height: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    overflow: scroll;
+    gap: 20px;
+    scrollbar-width: none;
+    z-index: 1;
+}
+
+.selecao-card::-webkit-scrollbar {
+    width: 0.5em; /* Largura do scroll */
+  }
+
+.btn-marcar-consulta{
+
+    height: 15%;
+    width: 100%;
+}
+
+.btn-marcar-consulta .btn-marcar{
+
+    height: 100%;
+    width: 100%;
+    background-color: #E2FFF8;
+    border: none;
+    border-radius: 10px;
+    color: #68A797;
+    font-size: 14px;
+}
+
+.card-doutor{
+    display: flex;
+    height: 40%;
+    
+}
+
+.card-doutor .foto img{
+
+    height: 100%;
+    border-radius: 50%;
+}
+
+.card-doutor .info-doutor h6{
+
+    font-weight: 700;
+}
+
+.info-doutor div h6{
+
+    color: #506175;
+}
+
+.card-doutor .info-doutor p{
+
+    margin-top: -10px;
+    font-size: 12px;
+    color: #696969;
+}
+
+.card-doutor .info-doutor{
+
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.espaco-arrow{
 
     display: flex;
-    justify-content: center;
-    align-items: end;
-    height: 70%;
+    justify-content: end;
+    margin-top: -20px;
+    background: none;
 }
 
-.img-doutor img{
-
-    height: 120px;
-    border-radius: 50%;
-} */
 
 .box-conteudo{
 
@@ -201,7 +275,37 @@ button{
 
 }
 
-@media screen and (max-width: 500px) {
+.distancia{
+
+    width: 100%;
+    padding-top: 10px;
+}
+
+.swipe{
+
+    width: 100%;
+}
+
+.swipe input{
+
+    -webkit-appearance: none;
+    height: 3px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #E0EBE8;
+}
+
+.swipe input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #68A797;
+    border-radius: 50%;
+    border: solid 3px #fff;
+}
+
+
+@media screen and (max-width: 800px) {
 
     .pop-up{
 
