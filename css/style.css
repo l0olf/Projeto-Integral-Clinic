@@ -23,6 +23,7 @@
 body {
 
     background-color: #fff;
+    transition: all 0.5s;
 }
 
 section {
@@ -198,7 +199,7 @@ section {
     width: 100%;
     height: 270px;
     /* margin-top:144px ; */
-    background-color: #fff;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -254,7 +255,6 @@ section {
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: #fff;
     gap: 30px;
 
 }
@@ -452,6 +452,12 @@ section {
     line-height: 40px;
     color: #506175;
     margin-top: 70px;
+}
+
+.dark-mode-toggle{
+
+    background:none;
+    color: #696969;
 }
 
 .Saude {
@@ -789,3 +795,58 @@ section {
         height: 45%;
     }
 }
+
+/* Dark Mode styles */
+
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #e6e6e6;
+    transition: all 0.5s;
+}
+
+body.dark-mode a {
+    color: #fff;
+}
+
+/* Update the styles of specific elements in dark mode */
+/* Example: */
+
+
+
+body.dark-mode .item-menu {
+    color: #fff;
+}
+
+body.dark-mode .logo {
+    color: #f4f4f4;
+}
+
+body.dark-mode .register {
+    color: #fff;
+}
+
+body.dark-mode button{
+
+    color: white;
+}
+
+body.dark-mode #hero .content .info .divisao-titulo {
+
+    color: #f4f4f4;
+}
+
+body.dark-mode h1{
+
+    color: #fff;
+}
+
+body.dark-mode h2{
+
+    color: #fff;
+}
+
+body.dark-mode p{
+
+    color: #a9a9a9;
+}
+
