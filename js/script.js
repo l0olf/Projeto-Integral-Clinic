@@ -21,3 +21,5 @@ menuBurguer.addEventListener('click', () => {
 btn_signup.addEventListener("click", () => {
     window.location.href = "sign.html";
 });
+
+

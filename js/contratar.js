@@ -6,3 +6,10 @@ function popUp() {
     popUp1.classList.toggle("fechado")
     all.classList.toggle('aberto')
 }
+
+var checkArea = document.querySelectorAll('.btn-area');
+
+function select(event) {
+    var button = event.target;
+    button.classList.toggle("selecionado");
+}
