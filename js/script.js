@@ -4,6 +4,8 @@ let menuMobile = document.querySelector(".menu-mobile")
 let menuBurguer = document.querySelector(".menu-burguer")
 var btn_signup = document.querySelector(".register");
 
+
+
 menuBurguer.addEventListener('click', () => {
     if (menuBurguer.classList.contains("activeMenu")) {
         menuBurguer.classList.remove("bi-list")
