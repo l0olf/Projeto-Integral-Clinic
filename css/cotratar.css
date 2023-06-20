@@ -15,6 +15,7 @@ button{
 
     opacity: 0;
     transition: all 0.5s;
+    display: none;
 }
 
 .pop-up{
@@ -29,6 +30,7 @@ button{
     border-radius: 30px;
     box-shadow: 0px 0px 40px 1px #0000003d;
     opacity: 1;
+    display: block;
     transition: all 0.5s;
     z-index: 100;
 }
@@ -185,8 +187,6 @@ button{
 }
 
 .descricao-card p{
-
-    margin-top: -10px;
     font-size: 12px;
 }
 
@@ -248,7 +248,6 @@ button{
 
 .card-doutor .info-doutor p{
 
-    margin-top: -10px;
     font-size: 12px;
     color: #696969;
 }
@@ -292,6 +291,13 @@ button{
     height: 0px;
     display: flex;
     align-items: center;
+    margin-top: 10px;
+}
+
+h6{
+
+    font-size: 16px;
+    color: #506175;
 }
 
 .swipe input:active{
@@ -337,7 +343,7 @@ button{
 .titulo-distancia h6{
 
     font-weight: 700;
-    color: #696969;
+    color: #506175;
 }
 
 .swipe input{
